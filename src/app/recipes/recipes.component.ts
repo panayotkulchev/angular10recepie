@@ -12,4 +12,7 @@ export class RecipesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  showReicpe($event: any) {
+    console.log($event);
+  }
 }
